@@ -7,10 +7,11 @@ SHELL = /bin/sh
 vpath %.cpp src
 vpath %.hpp include
 
-# TODO: Remove this on release. Users expect to be able to customize program
-# compilation, which these explicit flags prevent.
-CXX = g++
-CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic
+# Do not hard set these flags on release. Users
+# expect to be able to customize program compilation,
+# which these explicit flags prevent.
+# CXX = g++
+# CXXFLAGS = -std=c++17 -Wall -Wextra -pedantic
 
 PROGRAM = pgen
 
