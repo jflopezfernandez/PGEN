@@ -4,9 +4,11 @@
 
 #include <cstdio>
 #include <cstdlib>
+#include <cstring>
 
 #include <iostream>
 #include <random>
+#include <string>
 
 #include <boost/program_options.hpp>
 
